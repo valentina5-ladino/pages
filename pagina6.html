@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title> Pagina</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos6.css">
+	</head>
+
+	<body>
+		<style>A {text-decoration: none;} </style>
+		<header>
+			<nav class="hu">
+       <button class="boton"><a href="index.html">
+         Inicio
+       </a>
+      </button>
+      <button class="boton"><a href="pagina2.html">
+        Pagina2
+        </a>
+       </button>
+       <button class="boton"><a href="pagina3.html">
+         Pagina3
+        </a>
+       </button>
+       <button class="boton"><a href="pagina4.html">
+         Pagina4
+        </a>
+       </button>
+       <button class="boton"><a href="pagina5.html">
+         Pagina5
+        </a>
+       </button>
+       <button class="boton"><a href="pagina6.html">
+         Pagina6
+        </a>
+       </button>
+       <button class="boton"><a href="pagina7.html">
+         Pagina7
+        </a>
+       </button>
+       <button class="boton"><a href="pagina8.html">
+         Pagna8
+        </a>
+       </button>
+       <button class="boton"><a href="pagina9.html">
+         Pagina9
+        </a>
+       </button>
+    </nav>
+		</header>
+		<section class="main">
+			<article class="article">
+				<div class="slideshow-container">
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 5</div>
+				  <img src="images/flo.jpg" class="img">
+				  <div class="text">flo</div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 5</div>
+				  <img src="images/flo.jpg" class="img">
+				  <div class="text">flo</div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 5</div>
+				  <img src="images/arbol.jpg" class="img">
+				  <div class="text">arbol</div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">4 / 4</div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">5 / 5</div>
+				  <img src="images/s.jpg" class="img">
+				  <div class="text">s</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				</div>
+				<br>
+
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				  <span class="dot" onclick="currentSlide(4)"></span> 
+				  <span class="dot" onclick="currentSlide(5)"></span>
+				</div>
+
+				<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				      dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+			</article>
+		</section>
+
+		<!-- Texto -->
+
+		<section class="texto">
+			<article>
+				<p>anera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentra.</p>
+			</article>
+			<div>
+				<img src="images/suelo.jpg" class="suelo">
+				
+			</div>
+			<article>
+				<p>anera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentra.</p>
+			</article>
+		</section>
+		<section class="trabajos">
+			<article>
+				<p>y muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando .</p>
+			</article>
+			<div>
+				<img src="images/arbol.jpg"width="100" height="100" class="arbol">
+				<img src="images/yo.jpg"width="100" height="100"class="arbol">
+				<img src="images/flo.jpg"width="100" height="100" class="arbol">
+			</div>
+		</section>
+	</body>
+
+</html>

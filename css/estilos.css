@@ -1,0 +1,63 @@
+
+}
+
+header, .main, footer {
+	width: 90%;
+	max-width: 90%;
+	margin: 20px auto;
+}
+
+
+.cuadro1 {
+	width: 70%;
+	height: 300px;
+}
+
+.cuadro1 {
+	width: 50%;
+	height: 300px;
+}
+
+header nav {
+	margin-top: 20px;
+	padding: 10px;
+	background: #363A49;
+	overflow: hidden;
+
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	margin: auto;
+	padding: 10px 20px;
+	display: block;
+	color:#FB0180;
+	text-decoration: none;
+}
+
+
+.main .article {
+	width: 68.5%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.main .article article {
+	padding: 20px;
+	background: #929292;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+aside {
+	width: 30%;
+	margin-top: 10px;
+	background: #373737;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+

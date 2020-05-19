@@ -1,0 +1,36 @@
+a {
+  		text-decoration: none;
+		}
+	.forma {
+	    	 width: 100%; 
+	    	 height: 70px;
+	    	}
+	.arribaI{ float: left; flex; 
+	    	width: 30%;
+	    	height: 600px;
+	    	background-color: #FFF407;
+	   		 }
+	.gu{ float: left; flex; 
+	    	width: 70%;
+	    	height: 650px;
+	    	background color:#FF7807 : 
+	   		 }
+	.abajo
+	    {float: left; flex;  
+	    	width: 100%; 
+	    	height: 300px;
+	    }
+	    p {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.button1 {
+	  background-color: black; 
+	  color: black; 
+	  border: 2px solid #FFF407
+	}
+#caja1{
+	display: flex;
+	float: left;
+	width: 25%;
+	height: 20px;

@@ -1,0 +1,58 @@
+.forma{
+               width: 90%;
+    max-width: 90%;
+    margin: auto !important;
+    margin: 20px;
+    justify-content
+     {
+        float:left;
+    margin:0px 1px;
+   border:1px solid black;
+   border-bottom:4px black solid;
+   border-right:4px black solid;
+   background:#eeeeee;
+}
+a.opcion
+{
+   display:block;
+   padding:5px;
+}
+a.opcion:hover
+{
+   background:cyan;
+}
+}
+.contenedor-div{
+     position:relative;
+}
+.mi-imagen-abajo-derecha{
+    position:absolute;
+    bottom:5px;
+    right:10px;
+}
+ .contenido{
+
+  float: left;
+  background-color: #606367;
+  width: 80%;
+  height: 1000px;
+  justify-content: 
+ }
+  .imagenes{
+    float: left;
+    background-color: #606367;
+    width: 10%;
+    height: 1000px;
+ }
+
+    .derecha{
+    float: left;
+     background-color: #5B6A7F;
+     width: 10%;
+     height: 1000px;
+    }
+    .centro{
+     position: relative;
+     top: 30px;
+ }
+            
